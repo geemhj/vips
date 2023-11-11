@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="keywords" content="반응형 웹 가상 리뉴얼 프로젝트">
+        <meta name="description" content="산업 현장에서 요구되는 웹언어 구현-가상리뉴얼 프로젝트">
+        <title>빕스</title>
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon16.png">
+
+
+        <!-- 7. 외부 css파일 연동 -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/sub_style.css">
+
+        <!-- <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script> -->
+        <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+        <script src="js/motion.js"></script>
+        <script src="js/subheaderBg.js"></script>
+
+    </head>
+
+    <body>
+        <!-- 전체서브 공통 - header -->
+        <header id="header">
+            <div class="header_wrap">
+                <div class="header_inner">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="빕스"></a></h1>
+
+                    <!-- ★반응형 웹 추가코드 (1280px 이상 해상도에서는 비표시)-->
+                    <p class="nav_view_btn"><button><img src="images/nav_btn.png" alt="전역메뉴 표시"></button></p>
+
+                    <nav>
+                        <p class="nav_close_btn"><button><img src="images/nav_btn2.png" alt="전역메뉴 비표시"></button></p>
+
+                        <ul class="gnb sub1_gnb">
+                            <li>
+                                <a href="sub1_1.html">BRAND</a>
+                                <ul>
+                                    <li><a href="sub1_1.html">브랜드 스토리</a></li>
+                                    <li><a href="sub1_2.html">빕스 히스토리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub2_1.html">MENU</a>
+                                <ul>
+                                    <li><a href="sub2_1.html">스테이크</a></li>
+                                    <li><a href="sub2_2.html">샐러드 바</a></li>
+                                    <li><a href="sub2_3.html">와인</a></li>
+                                    <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub3_1.html">STORE</a>
+                                <ul>
+                                    <li><a href="sub3_1.html">매장찾기</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub4_1.html">EVENT</a>
+                                <ul>
+                                    <li><a href="sub4_1.html">이벤트</a></li>
+                                    <li><a href="sub4_2.html">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub5_1.html">BENEFIT</a>
+                                <ul>
+                                    <li><a href="sub5_1.html">제휴할인카드</a></li>
+                                    <li><a href="sub5_2.html">CJ ONE</a></li>
+                                    <li><a href="sub5_3.html">빕스매니아</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="top_util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="https://www.cjone.com/cjmweb/join.do?coopco_cd=7020&brnd_cd=2040&mcht_no=&coop_return_url=" target="_blank">회원가입</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="sub_container">
+
+            <!-- 전체서브 공통 - visual -->
+            <h2>Brand</h2> 
+            <div class="sub_visual brand_bg">
+                <div class="sub_visual_wrap brandstory_visualtext">
+                    <h3>BRAND</h3>
+                </div>
+            </div>
+            
+            <!-- 전체서브 공통 - lnb -->
+            <div class="lnb"> 
+                <div class="lnb_wrap brandstory_lnb">
+                    <ul>
+                        <li><a href="sub1_1.html">브랜드 스토리</a></li>
+                        <li><a href="sub1_2.html">빕스 히스토리</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub_root sub1_1root">Home > BRAND > 브랜드 스토리</div>
+
+            <!-- 서브 개별 콘텐츠 -->
+            <div class="sub_content brandstory_content">
+                <div class="subcontent_title">
+                    <h4>Brand Story</h4>
+                    <p>브랜드 스토리</p>
+                </div>
+
+                <div class="brandstory">
+                    <div class="brandstory_text">
+                        <p>빕스만의 특별한 스테이크를 맛볼 수 있는 <br>
+                            <strong>My No.1 스테이크하우스, 빕스</strong></p>
+                        <p>엄선된 쇠고기를 다양하고 차별화된 조리방식으로 즐길 수 있는 <b>빕스만의 스테이크</b>와<br> 
+                            <b>계절별로 신선하고 풍성한 샐러드 바</b>를 품격있고 세련된 분위기에서 즐길 수 있는 곳, 빕스!<br>
+                            소중한 사람들과 함께하는 고객님의 삶에 멋과 여유를 드리는 공간입니다.</p>
+                    </div>
+                </div>
+
+                
+                <div class="effort">
+                    <div class="effort_title">
+                        <p>고객님의 기대, 그 이상의 행복한 경험을 위한<br>
+                            <strong>빕스의 노력</strong></p>
+                        <p>My No.1 Steakhouse</p>
+                    </div>
+                </div>
+
+                <div class="effort_info">
+                    <div class="effort_info1">
+                        <div>
+                            <p>01</p>
+                            <p><strong>빕스만의 <br>
+                                다채로운 프리미엄 스테이크</strong></p>
+                            <p>2010년 말 빕스는 프리미엄 스테이크하우스로의 변신을 선포하고<br>
+                                까다로워지는 고객들의 입맛에 부응하기 위해 세계 각국의 스테이크<br>
+                                전문점을 탐방하며 정통 스테이크 맛의 구현을 위해 노력합니다.<br>
+                                브로일링, 팬 프라잉 등 다양한 조리법과 숙성방법을 개발해 왔으며,<br>
+                                다채로운 스테이크를 선보이고 있습니다.</p>
+                        </div>
+                        <p><img src="sub_images/sub1_info1.jpg" alt="빕스의 프리미엄 스테이크"></p>
+                    
+                    </div>
+    
+                    <div class="effort_info2">
+                        <p><img src="sub_images/sub1_info2.jpg" alt="빕스의 균형 있고 건강한 샐러드 바"></p>
+                        <div>
+                            <p>02</p>
+                            <p><strong>차별화를 위한<br> 
+                                다양한 시도와 진화</strong></p>
+                            <p>빕스의 샐러드 바는 지속적으로 2,000여 개의 메뉴를 선보이며<br>
+                                건강함과 신선함, 다양함을 추구하고 있습니다.<br>
+                                지금도 새로운 변화를 시도하며 진화하고 있으며,<br>
+                                매년 다양한 컨셉의 샐러드 바 메뉴를 선보이고 있습니다.<br>
+                                앞으로도 균형 있고 건강한 메뉴를 지속적으로 선보일 계획입니다.</p>
+                        </div>
+                    </div>
+    
+                    <div class="effort_info3">
+                        <div>
+                            <p>03</p>
+                            <p><strong>최상의 서비스로<br>
+                                행복을 선사하는 빕스</strong></p>
+                            <p>빕스는 1997년 1호점인 등촌점을 오픈한 이래 고객님의 기대,<br> 
+                                그 이상의 행복한 경험을 위해 항상 노력하고 있습니다.<br>
+                                늘 신선하고 새로운 맛, 활력 넘치는 즐거운 공간,<br> 
+                                세심한 배려와 진심이 담긴 서비스로 국내는 물론 세계에서도<br> 
+                                인정받는 빕스가 될 수 있도록 더욱 노력할 것입니다.</p>
+                        </div>
+                        <p><img src="sub_images/sub1_info3.jpg" alt="빕스의 진심이 담긴 서비스"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer"> 
+            <div class="footer_wrap">
+
+                <!--0. top_move{ position: absolute; left:50%; margin: -25px 0 0 -25px;  }-->
+                <p class="top_move"><button><img src="images/footer_top_btn.jpg" alt="웹문서 상단으로 이동"></button></p>
+
+                <!--1-->
+                <div class="footer_top">
+
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">위치기반서비스 이용약관</a></li>
+                        <li><a href="#"><b>개인정보처리방침</b></a></li>
+                        <li><a href="#">이메일 무단수집거부</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">윤리신고센터</a></li>
+                    </ul>
+
+                    <div class="familysite">
+                        <p><button>패밀리 사이트</button></p>
+                        <ul>
+                            <li><a href="https://www.cjfoodville.co.kr/main.asp" target="_blank">CJ푸드빌</a></li>
+                            <li><a href="https://www.tlj.co.kr:7008/index.asp" target="_blank">뚜레쥬르</a></li>
+                            <li><a href="https://www.italiantheplace.co.kr:7022/" target="_blank">더플레이스</a></li>
+                            <li><a href="https://www.cheiljemyunso.co.kr:7014/main.asp" target="_blank">제일제면소</a></li>
+                            <li><a href="https://www.ngrill.co.kr:7025/index.html" target="_blank">N그릴</a></li>
+                            <li><a href="https://www.nseoultower.co.kr:8501/index.asp" target="_blank">N서울타워</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--2-->
+                <div class="footer_middle">
+
+                    <p>CJ푸드빌㈜</p>
+                    <!-- 
+                        div{float:left; display:flex; flex-wrap:wrap; }
+                        div>*:not(:first-child){ border-right:1px solid rgba(255,255,255,0.7); margin-right:10px; padding-right:10px;    }
+                    -->
+                    <div>
+                        <p>대표이사 : 김찬호</p>
+                        <address>주소 : 서울시 중구 마른내로34(초동 106-9번지) KT&G을지로타워 3, 9층</address>
+                        <p>사업자등록번호 : 312-81-42519</p>
+                        <p><b>고객센터 : 1577-0700</b></p>
+                        <p>팩스 : 02-6740-4349</p>
+                        <p><b>대표이메일 : <a href="mailto:help_master@cj.net">help_master@cj.net</a></b></p>
+                        <p>개인정보보호책임자 : 오창호</p>
+                    </div>
+
+                    <!-- sns:float:right;-->
+                    <ul class="sns">
+                        <li><a href="#" target="_blank"><img src="images/footer_icon1.png" alt="인스타그램"></a></li>
+                        <li><a href="https://www.facebook.com/ivips" target="_blank"><img src="images/footer_icon2.png" alt="페이스북"></a></li>
+                        <li><a href="https://www.youtube.com/@VIPS" target="_blank"><img src="images/footer_icon3.png" alt="유투브"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/footer_icon4.png" alt="카카오톡"></a></li>
+                    </ul>
+
+                </div>
+
+                <!--3-->
+                <p>Copyright ⓒ 2023 CJ Foodville ALL RIGHTS RESEVED.</p>
+
+            </div>
+        </footer>
+
+    </body>
+</html>

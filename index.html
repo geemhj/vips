@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <!-- 1. 문자 해독 유니코드 설정 -->
+        <meta charset="utf-8">
+        <!-- 2. 반응형 웹 추가 코드(m.naver.com 참고) -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <!-- 3. 웹사이트 키워드 추가 -->
+        <meta name="keywords" content="반응형 웹 가상 리뉴얼 프로젝트">
+        <!-- 4. 웹사이트 설명 추가 -->
+        <meta name="description" content="산업 현장에서 요구되는 웹언어 구현-가상리뉴얼 프로젝트">
+        <!-- 5. 웹사이트 타이틀 추가 -->
+        <title>빕스</title>
+        <!-- 6. 파비콘 추가 -->
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon16.png">
+        <!-- 7. 외부 css파일 연동 -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- 8. 외부 제이쿼리 압축파일 CDN방식 연동(jquery.com) => 오류로 파일 다운로드 -->
+        <!-- <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script> -->
+        <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+        <!-- 9. 제이쿼리 압축파일에서 사용할 명령어 및 문법 조합 스크립트 파일 연동 -->
+        <script src="js/motion.js"></script>
+        <script src="js/indexheaderBg.js"></script>
+        <script src="js/visual.js"></script>
+
+    </head>
+
+    <body>
+        <!--1.position:fixed; left:0; top:0; width:100%; height:100px; border-bottom:1px solid rgba(0,0,0,0.3)-->
+        <header id="header">
+
+            <!--w:1400px; height:100px; margin:0 auto; display:flex;-->
+            <div class="header_wrap">
+                <div class="header_inner">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="빕스"></a></h1>
+
+                    <!-- ★반응형 웹 추가코드 (1280px 이상 해상도에서는 비표시)-->
+                    <p class="nav_view_btn"><button><img src="images/nav_btn.png" alt="전역메뉴 표시"></button></p>
+
+                    <nav>
+                        <p class="nav_close_btn"><button><img src="images/nav_btn2.png" alt="전역메뉴 비표시"></button></p>
+
+                        <ul class="gnb">
+                            <li>
+                                <a href="sub1_1.html">BRAND</a>
+                                <ul>
+                                    <li><a href="sub1_1.html">브랜드 스토리</a></li>
+                                    <li><a href="sub1_2.html">빕스 히스토리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub2_1.html">MENU</a>
+                                <ul>
+                                    <li><a href="sub2_1.html">스테이크</a></li>
+                                    <li><a href="sub2_2.html">샐러드 바</a></li>
+                                    <li><a href="sub2_3.html">와인</a></li>
+                                    <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub3_1.html">STORE</a>
+                                <ul>
+                                    <li><a href="sub3_1.html">매장찾기</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub4_1.html">EVENT</a>
+                                <ul>
+                                    <li><a href="sub4_1.html">이벤트</a></li>
+                                    <li><a href="sub4_2.html">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub5_1.html">BENEFIT</a>
+                                <ul>
+                                    <li><a href="sub5_1.html">제휴할인카드</a></li>
+                                    <li><a href="sub5_2.html">CJ ONE</a></li>
+                                    <li><a href="sub5_3.html">빕스매니아</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="top_util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="https://www.cjone.com/cjmweb/join.do?coopco_cd=7020&brnd_cd=2040&mcht_no=&coop_return_url=" target="_blank">회원가입</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="container">  
+
+            <!--2중 확장구조-->
+            <section class="visual">
+
+                <h2>빕스 소개</h2>
+
+                <ul class="visual_slide">
+                    <li class="v1">
+                        <div class="visual_content1">
+                            <a href="sub2_1.html">
+                                <p><img src="images/visual_img1_text.png" alt="골든 프리미어 스테이크 에디션"></p>
+                                <p><strong>골든 프리미어 토마호크 스테이크</strong></p>
+                                <p>강력한 시즐링과 최상급 부위로 즐기는<br>
+                                    감동적인 풍미의 골든 프리미어 스테이크</p>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="v2">
+                        <div class="visual_content2">
+                            <p><img src="images/visual_img2_text.png" alt="빕스답게 특별하게 홀리데이 씨푸드 다이닝"></p>
+                            <p>테이스트업 시즌 메뉴로 더욱 풍성해진<br>
+                                빕스 <span>홀리데이 씨푸드 다이닝</span> 파티에 초대합니다</p>
+                            <p><a href="#">시즌 메뉴 더보기</a></p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="visual_controls">
+                    <button><img src="images/visual_pause_btn.png" alt="일시정지"></button>
+                    <button><span>이미지 슬라이드 첫번째 페이지</span></button>
+                    <button><span>이미지 슬라이드 두번째 페이지</span></button>
+                </div>
+
+            </section>
+            
+            <section class="menu">
+                <h2>VIPS SPECIAL MENU</h2>
+
+                <div class="menu1">
+
+                    <p><img src="images/menu_img1.jpg" alt="얌스톤 안심 스테이크"></p>
+
+                    <div class="menu_text">
+                        <a href="sub2_1.html">
+                            <p>Signature</p>
+                            <h3>YUMSTONE <br>
+                                TENDERLOIN STEAK</h3>
+                            <p><strong>얌 스톤 안심 스테이크</strong></p>
+                            <p>소 한마리에서 2~3%만 나오는 고급부위로,<br>
+                                뜨거운 얌 스톤 위에서 직접 구우며 페페콘 소스와 함께 즐기는<br>
+                                담백하고 부드러운 빕스의 인기 안심 스테이크</p>
+                        </a>
+                        <p class="menu_more_btn"><a href="sub2_1.html"><img src="images/menu_more_btn.png" alt="스테이크 메뉴 더보기"></a></p>
+                    </div>
+
+                </div>
+
+                <div class="menu2">
+
+                    <div class="menu_text">
+                        <a href="sub2_1.html">
+                            <p>Best</p>
+                            <h3>GOLDEN PREMIER<br>
+                                PORTERHOUSE</h3>
+                            <p><strong>골든 프리미어 포터하우스 스테이크</strong></p>
+                            <p>거대한 T자 모양의 뼈를 중심으로 안심과 등심을<br>
+                                동시에 즐길 수 있는 압도적 풍미의 포터하우스 스테이크</p>
+                        </a>
+                        <p class="menu_more_btn"><a href="sub2_1.html"><img src="images/menu_more_btn.png" alt="스테이크 메뉴 더보기"></a></p>
+                    </div>
+
+                    <p><img src="images/menu_img2.jpg" alt="골든 프리미어 포터하우스 스테이크"></p>
+                </div>
+
+            </section>
+
+            <!--2중 확장구조-->
+            <section class="wine">
+                <div class="wine_wrap">
+                    <h2>SEASON SPECIAL WINE</h2>
+                    <p>특별한 오늘을 더욱 빛내줄<br>
+                        <b>빕스의 시즌 스페셜 와인</b>을 즐겨보세요.</p>
+
+                     <ul>
+                        <li><img src="images/wine_img1.png" alt="시즌 스페셜 와인 앙시앙땅 카베르네 소비뇽 쉬라"></li>
+                        <li><img src="images/wine_img2.png" alt="시즌 스페셜 와인 아포틱 화이트"></li>
+                     </ul>
+                </div>
+           </section>
+
+            <section class="news">
+                <h2>NEWS & EVENT</h2>
+                
+                <table>
+                    <tbody>
+                        <tr> 
+                            <td>
+                                <a href="#">
+                                    <p>EVENT</p>  
+                                    <p>빕스 그린 테이블 캠페인 #먹을만큼만 #남기지말고</p>
+                                </a>
+                            </td> 
+                            <td>2023.03.30</td>  
+                        </tr>
+
+                        <tr> 
+                            <td>
+                                <a href="#">
+                                    <p>EVENT</p>  
+                                    <p>빕스 레드 씨푸드 챌린지 나만의 먹조합을<br> 인스타그램에 업로드하면 경품이 와르르!</p>
+                                </a>
+                            </td> 
+                            <td>2023.02.01</td>  
+                        </tr>
+
+                        <tr> 
+                            <td>
+                                <a href="#">
+                                    <p>EVENT</p>  
+                                    <p>CJ푸드빌 개인정보처리방침 개정 고지</p>
+                                </a>
+                            </td> 
+                            <td>2023.01.09</td>  
+                        </tr>
+
+                        <tr> 
+                            <td>
+                                <a href="#">
+                                    <p>NEWS</p>  
+                                    <p>빕스 프리미어 천안펜타포트점 그랜드 오프닝</p>
+                                </a>
+                            </td> 
+                            <td>2023.01.02</td>  
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="quicklink">
+                <h2>QUICK LINK</h2>
+
+                <div class="content1">
+
+                    <div class="quickmenu1">
+                        <h3>제휴 할인 혜택</h3>
+                        <p>빕스를 즐기는 다양한 방법!<br>
+                            다양한 제휴 할인 혜택을 만나 보세요.</p>
+                        <a href="sub5_1.html"><img src="images/quick_more_btn.png" alt="제휴 할인 혜택 정보 더보기"></a>
+                    </div>
+
+                    <div class="quickmenu2">
+                        <h3>픽업 & 딜리버리</h3>
+                        <p>집에서 즐기는 빕스 다이닝<br>
+                            이제 편리하게 앱으로 만나보세요.</p>
+                        <a href="sub2_4.html"><img src="images/quick_more_btn.png" alt="픽업 & 딜리버리 주문하러가기"></a>
+                    </div>
+
+                </div>
+
+                <div class="content2">
+
+                    <div class="quickmenu3">
+                        <p>2023VIPSMANIA</p>
+                        <h3>2023 빕스 매니아</h3>
+                        <p>빕스를 사랑해주신 고객님을 빕스의 <b>VIP</b>로 모십니다.<br>
+                            등급을 확인하고 다양한 혜택을 누리세요!</p>
+                        <a href="sub5_3.html"><img src="images/quick_more_btn.png" alt="2023 빕스 매니아 정보 더보기"></a>
+                    </div>
+
+                    <div class="quickmenu4">
+                        <h3>매장 찾기</h3>
+                        <p>우리 동네에서 가장 가까운 빕스는?</p>
+                        <p><a href="sub3_1.html">매장 검색하기</a></p>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+        <footer id="footer"> 
+            <div class="footer_wrap">
+
+                <!--0. top_move{ position: absolute; left:50%; margin: -25px 0 0 -25px;  }-->
+                <p class="top_move"><button><img src="images/footer_top_btn.jpg" alt="웹문서 상단으로 이동"></button></p>
+
+                <!--1-->
+                <div class="footer_top">
+
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">위치기반서비스 이용약관</a></li>
+                        <li><a href="#"><b>개인정보처리방침</b></a></li>
+                        <li><a href="#">이메일 무단수집거부</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">윤리신고센터</a></li>
+                    </ul>
+
+                    <div class="familysite">
+                        <p><button>패밀리 사이트</button></p>
+                        <ul>
+                            <li><a href="https://www.cjfoodville.co.kr/main.asp" target="_blank">CJ푸드빌</a></li>
+                            <li><a href="https://www.tlj.co.kr:7008/index.asp" target="_blank">뚜레쥬르</a></li>
+                            <li><a href="https://www.italiantheplace.co.kr:7022/" target="_blank">더플레이스</a></li>
+                            <li><a href="https://www.cheiljemyunso.co.kr:7014/main.asp" target="_blank">제일제면소</a></li>
+                            <li><a href="https://www.ngrill.co.kr:7025/index.html" target="_blank">N그릴</a></li>
+                            <li><a href="https://www.nseoultower.co.kr:8501/index.asp" target="_blank">N서울타워</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--2-->
+                <div class="footer_middle">
+
+                    <p>CJ푸드빌㈜</p>
+                    <!-- 
+                        div{float:left; display:flex; flex-wrap:wrap; }
+                        div>*:not(:first-child){ border-right:1px solid rgba(255,255,255,0.7); margin-right:10px; padding-right:10px;    }
+                    -->
+                    <div>
+                        <p>대표이사 : 김찬호</p>
+                        <address>주소 : 서울시 중구 마른내로34 KT&G을지로타워 3, 9층</address>
+                        <p>사업자등록번호 : 312-81-42519</p>
+                        <p><b>고객센터 : 1577-0700</b></p>
+                        <p>팩스 : 02-6740-4349</p>
+                        <p><b>대표이메일 : <a href="mailto:help_master@cj.net">help_master@cj.net</a></b></p>
+                        <p>개인정보보호책임자 : 오창호</p>
+                    </div>
+
+                    <!-- sns:float:right;-->
+                    <ul class="sns">
+                        <li><a href="#" target="_blank"><img src="images/footer_icon1.png" alt="인스타그램"></a></li>
+                        <li><a href="https://www.facebook.com/ivips" target="_blank"><img src="images/footer_icon2.png" alt="페이스북"></a></li>
+                        <li><a href="https://www.youtube.com/@VIPS" target="_blank"><img src="images/footer_icon3.png" alt="유투브"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/footer_icon4.png" alt="카카오톡"></a></li>
+                    </ul>
+
+                </div>
+
+                <!--3-->
+                <p>Copyright ⓒ 2023 CJ Foodville ALL RIGHTS RESEVED.</p>
+
+            </div>
+        </footer>
+
+    </body>
+</html>

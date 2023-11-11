@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="keywords" content="반응형 웹 가상 리뉴얼 프로젝트">
+        <meta name="description" content="산업 현장에서 요구되는 웹언어 구현-가상리뉴얼 프로젝트">
+        <title>빕스</title>
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon16.png">
+
+
+        <!-- 7. 외부 css파일 연동 -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/sub_style.css">
+
+        <!-- <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script> -->
+        <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+        <script src="js/motion.js"></script>
+        <script src="js/subheaderBg.js"></script>
+
+    </head>
+
+    <body>
+        <!-- 전체서브 공통 - header -->
+        <header id="header">
+            <div class="header_wrap">
+                <div class="header_inner">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="빕스"></a></h1>
+
+                    <!-- ★반응형 웹 추가코드 (1280px 이상 해상도에서는 비표시)-->
+                    <p class="nav_view_btn"><button><img src="images/nav_btn.png" alt="전역메뉴 표시"></button></p>
+
+                    <nav>
+                        <p class="nav_close_btn"><button><img src="images/nav_btn2.png" alt="전역메뉴 비표시"></button></p>
+
+                        <ul class="gnb sub2_gnb">
+                            <li>
+                                <a href="sub1_1.html">BRAND</a>
+                                <ul>
+                                    <li><a href="sub1_1.html">브랜드 스토리</a></li>
+                                    <li><a href="sub1_2.html">빕스 히스토리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub2_1.html">MENU</a>
+                                <ul>
+                                    <li><a href="sub2_1.html">스테이크</a></li>
+                                    <li><a href="sub2_2.html">샐러드 바</a></li>
+                                    <li><a href="sub2_3.html">와인</a></li>
+                                    <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub3_1.html">STORE</a>
+                                <ul>
+                                    <li><a href="sub3_1.html">매장찾기</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub4_1.html">EVENT</a>
+                                <ul>
+                                    <li><a href="sub4_1.html">이벤트</a></li>
+                                    <li><a href="sub4_2.html">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub5_1.html">BENEFIT</a>
+                                <ul>
+                                    <li><a href="sub5_1.html">제휴할인카드</a></li>
+                                    <li><a href="sub5_2.html">CJ ONE</a></li>
+                                    <li><a href="sub5_3.html">빕스매니아</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="top_util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="https://www.cjone.com/cjmweb/join.do?coopco_cd=7020&brnd_cd=2040&mcht_no=&coop_return_url=" target="_blank">회원가입</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="sub_container">
+            <!-- 전체서브 공통 - visual -->
+            <h2>MENU</h2> 
+            <div class="sub_visual wine_bg">
+                <div class="sub_visual_wrap wine_visualtext">
+                    <h3>MENU</h3>
+                </div>
+            </div>
+
+            <!-- 전체서브 공통 - lnb -->
+            <div class="wine_lnb"> 
+                <div class="wine_lnb_wrap">
+                    <ul>
+                        <li><a href="sub2_1.html">스테이크</a></li>
+                        <li><a href="sub2_2.html">샐러드 바</a></li>
+                        <li><a href="sub2_3.html">와인</a></li>
+                        <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub2_3root">Home > MENU > 와인</div>
+
+            <!-- 서브 개별 콘텐츠 -->
+            <div class="sub_content wine_content">
+                <div class="wine_menu">
+                    <div class="subcontent_title">
+                        <h4>Wine</h4>
+                        <p>와인</p>
+                    </div>
+
+                    <ul class="wine_list_wrap">
+                        <li class="wine_list">
+                            <div class="wineinfo_top">
+                                <p>라즈베리, 체리, 허브, 스모키한 향을 느낄 수 있는<br>
+                                   부드러운 긴 여운의 미디엄 바디의 와인<p>
+                                <p>원산지 : 미국</p>
+                            </div>
+                            <p><img src="sub_images/sub2_3_wine_img1.jpg" alt="샤또 수버렌 메를로"></p>
+                            <p>RED</p>
+                            <p><b>샤또 수버렌 메를로</b></p>
+                            <p>Chateau Souverain Merlot</p>
+                            <p>₩ 48,000</p>
+                        </li>
+
+                        <li class="wine_list">
+                            <div class="wineinfo_top">
+                                <p>과숙한 체리, 라즈베리의 아로마와 산미가 조화를 이뤄<br>
+                                    우아한 텍스쳐, 환상적인 밸런스가 인상적인 와인<p>
+                                 <p>원산지 : 프랑스</p>
+                            </div>
+                            <p><img src="sub_images/sub2_3_wine_img2.jpg" alt="샤또 수버렌 메를로"></p>
+                            <p>RED</p>
+                            <p><b>제라드 베르트랑 리저브 스페시알 피노 누아</b></p>
+                            <p>Gerard Bertrand Reserve Speciale Pinot Noir</p>
+                            <p>₩ 63,000</p>
+                        </li>
+
+                        <li class="wine_list">
+                            <div class="wineinfo_top">
+                                <p>풍부한 과일의 풍미, 민트 향을 느낄 수 있으며<br>
+                                    꽃 향기와 은은한 잼 향이 인상적인<br>
+                                    신선한 생선회가 잘 어울리는 화이트 와인<p>
+                                 <p>원산지 : 프랑스</p>
+                            </div>
+                            <p><img src="sub_images/sub2_3_wine_img3.jpg" alt="샤또 수버렌 메를로"></p>
+                            <p>WHITE</p>
+                            <p><b>샤또 당글레 클라시크 화이트 라 클라프</b></p>
+                            <p>Chateau D'angles Classique White La Clape</p>
+                            <p>₩ 49,000</p>
+                        </li>
+
+                        <li class="wine_list">
+                            <div class="wineinfo_top">
+                                <p>선명한 레몬빛을 띠고 바나나, 파인애플바닐라,<br>
+                                    아몬드의 아로마가 느껴지는 적당한 바디와<br>
+                                    부드러운 산도가 은은하게 입 안 가득 차오르는 와인<p>
+                                 <p>원산지 : 미국</p>
+                            </div>
+                            <p><img src="sub_images/sub2_3_wine_img4.jpg" alt="샤또 수버렌 메를로"></p>
+                            <p>WHITE</p>
+                            <p><b>브레드 & 버터 나파 샤도네이</b></p>
+                            <p>Bread & Butter Napa Chardonnay</p>
+                            <p>₩ 77,000</p>
+                        </li>
+
+                        <li class="wine_list">
+                            <div class="wineinfo_top">
+                                <p>밝은 밀짚색을 띠고 파인애플, 사과 등 과일의 아로마와<br> 
+                                    꾸준히 올라오는 기포가 입맛을 개운하게 해주며,<br>
+                                    모스카토 특유의 맛과 향이 즐거움을 더해주는 와인<p>
+                                 <p>원산지 : 이탈리아</p>
+                            </div>
+                            <p><img src="sub_images/sub2_3_wine_img5.jpg" alt="샤또 수버렌 메를로"></p>
+                            <p>SPARKLING</p>
+                            <p><b>제라드 베르트랑 리저브 스페시알 피노 누아</b></p>
+                            <p>Banfi Tiara Platinum Moscato</p>
+                            <p>₩ 28,000</p>
+                        </li>
+
+                        <li class="wine_list">
+                            <div class="wineinfo_top">
+                                <p>청사과와 시트러스의 향이 코 끝을 싱그럽게 자극하며<br> 
+                                    끊임없이 작은 버블들이 올라오는 신선한 맛이<br>
+                                    깔끔한 스페인에서 가장 사랑받는 와인<p>
+                                 <p>원산지 : 스페인</p>
+                            </div>
+                            <p><img src="sub_images/sub2_3_wine_img6.jpg" alt="샤또 수버렌 메를로"></p>
+                            <p>SPARKLING</p>
+                            <p><b>호메 세라 브뤼 까바</b></p>
+                            <p>Jaume Serra Brut Cava</p>
+                            <p>₩ 48,000</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="beverage">
+                    <div class="subcontent_title">
+                        <h4>Beverage</h4>
+                        <p>음료</p>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <div>
+                                <p><b>애플망고 에이드</b></p>
+                                <p>AppleMango Ade</p>
+                            </div>
+                            <p>₩ 6,500</p>
+                        </li>
+
+                        <li>
+                            <div>
+                                <p><b>자몽 에이드</b></p>
+                                <p>Grapefruit Ade</p>
+                            </div>
+                            <p>₩ 6,500</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bottom_notice">
+                    <p>NOTICE</p>
+                    <p>
+                        - 모든 메뉴 가격은 부가세 포함 금액입니다.<br>
+                        - 만 19세 미만의 청소년에게는 주류 판매가 불가합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer"> 
+            <div class="footer_wrap">
+
+                <!--0. top_move{ position: absolute; left:50%; margin: -25px 0 0 -25px;  }-->
+                <p class="top_move"><button><img src="images/footer_top_btn.jpg" alt="웹문서 상단으로 이동"></button></p>
+
+                <!--1-->
+                <div class="footer_top">
+
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">위치기반서비스 이용약관</a></li>
+                        <li><a href="#"><b>개인정보처리방침</b></a></li>
+                        <li><a href="#">이메일 무단수집거부</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">윤리신고센터</a></li>
+                    </ul>
+
+                    <div class="familysite">
+                        <p><button>패밀리 사이트</button></p>
+                        <ul>
+                            <li><a href="https://www.cjfoodville.co.kr/main.asp" target="_blank">CJ푸드빌</a></li>
+                            <li><a href="https://www.tlj.co.kr:7008/index.asp" target="_blank">뚜레쥬르</a></li>
+                            <li><a href="https://www.italiantheplace.co.kr:7022/" target="_blank">더플레이스</a></li>
+                            <li><a href="https://www.cheiljemyunso.co.kr:7014/main.asp" target="_blank">제일제면소</a></li>
+                            <li><a href="https://www.ngrill.co.kr:7025/index.html" target="_blank">N그릴</a></li>
+                            <li><a href="https://www.nseoultower.co.kr:8501/index.asp" target="_blank">N서울타워</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--2-->
+                <div class="footer_middle">
+
+                    <p>CJ푸드빌㈜</p>
+                    <!-- 
+                        div{float:left; display:flex; flex-wrap:wrap; }
+                        div>*:not(:first-child){ border-right:1px solid rgba(255,255,255,0.7); margin-right:10px; padding-right:10px;    }
+                    -->
+                    <div>
+                        <p>대표이사 : 김찬호</p>
+                        <address>주소 : 서울시 중구 마른내로34(초동 106-9번지) KT&G을지로타워 3, 9-11층 (우)04555</address>
+                        <p>사업자등록번호 : 312-81-42519</p>
+                        <p><b>고객센터 : 1577-0700</b></p>
+                        <p>팩스 : 02-6740-4349</p>
+                        <p><b>대표이메일 : <a href="mailto:help_master@cj.net">help_master@cj.net</a></b></p>
+                        <p>개인정보보호책임자 : 오창호</p>
+                    </div>
+
+                    <!-- sns:float:right;-->
+                    <ul class="sns">
+                        <li><a href="#" target="_blank"><img src="images/footer_icon1.png" alt="인스타그램"></a></li>
+                        <li><a href="https://www.facebook.com/ivips" target="_blank"><img src="images/footer_icon2.png" alt="페이스북"></a></li>
+                        <li><a href="https://www.youtube.com/@VIPS" target="_blank"><img src="images/footer_icon3.png" alt="유투브"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/footer_icon4.png" alt="카카오톡"></a></li>
+                    </ul>
+
+                </div>
+
+                <!--3-->
+                <p>Copyright ⓒ 2023 CJ Foodville ALL RIGHTS RESEVED.</p>
+
+            </div>
+        </footer>
+
+    </body>
+</html>

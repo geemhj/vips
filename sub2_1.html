@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="keywords" content="반응형 웹 가상 리뉴얼 프로젝트">
+        <meta name="description" content="산업 현장에서 요구되는 웹언어 구현-가상리뉴얼 프로젝트">
+        <title>빕스</title>
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon16.png">
+
+
+        <!-- 7. 외부 css파일 연동 -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/sub_style.css">
+
+        <!-- <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script> -->
+        <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+        <script src="js/motion.js"></script>
+        <script src="js/subheaderBg.js"></script>
+
+    </head>
+
+    <body>
+        <!-- 전체서브 공통 - header -->
+        <header id="header">
+            <div class="header_wrap">
+                <div class="header_inner">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="빕스"></a></h1>
+
+                    <!-- ★반응형 웹 추가코드 (1280px 이상 해상도에서는 비표시)-->
+                    <p class="nav_view_btn"><button><img src="images/nav_btn.png" alt="전역메뉴 표시"></button></p>
+
+                    <nav>
+                        <p class="nav_close_btn"><button><img src="images/nav_btn2.png" alt="전역메뉴 비표시"></button></p>
+
+                        <ul class="gnb sub2_gnb">
+                            <li>
+                                <a href="sub1_1.html">BRAND</a>
+                                <ul>
+                                    <li><a href="sub1_1.html">브랜드 스토리</a></li>
+                                    <li><a href="sub1_2.html">빕스 히스토리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub2_1.html">MENU</a>
+                                <ul>
+                                    <li><a href="sub2_1.html">스테이크</a></li>
+                                    <li><a href="sub2_2.html">샐러드 바</a></li>
+                                    <li><a href="sub2_3.html">와인</a></li>
+                                    <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub3_1.html">STORE</a>
+                                <ul>
+                                    <li><a href="sub3_1.html">매장찾기</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub4_1.html">EVENT</a>
+                                <ul>
+                                    <li><a href="sub4_1.html">이벤트</a></li>
+                                    <li><a href="sub4_2.html">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub5_1.html">BENEFIT</a>
+                                <ul>
+                                    <li><a href="sub5_1.html">제휴할인카드</a></li>
+                                    <li><a href="sub5_2.html">CJ ONE</a></li>
+                                    <li><a href="sub5_3.html">빕스매니아</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="top_util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="https://www.cjone.com/cjmweb/join.do?coopco_cd=7020&brnd_cd=2040&mcht_no=&coop_return_url=" target="_blank">회원가입</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="sub_container">
+            <!-- 전체서브 공통 - visual -->
+            <h2>MENU</h2> 
+            <div class="sub_visual steak_bg">
+                <div class="sub_visual_wrap steak_visualtext">
+                    <h3>MENU</h3>
+                </div>
+            </div>
+            
+            <!-- 전체서브 공통 - lnb -->
+            <div class="steak_lnb"> 
+                <div class="steak_lnb_wrap">
+                    <ul>
+                        <li><a href="sub2_1.html">스테이크</a></li>
+                        <li><a href="sub2_2.html">샐러드 바</a></li>
+                        <li><a href="sub2_3.html">와인</a></li>
+                        <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub2_1root">Home > MENU > 스테이크</div>
+
+            <div class="sub_content steak_content">
+                <div class="subcontent_title">
+                    <h4>Steak</h4>
+                    <p>스테이크</p>
+                </div>
+
+                <div class="steak1">
+                    <div class="steak1_wrap">
+                        <p><strong>Golden Premier Steak</strong></p>
+                        <p>빕스만의 강력한 시즐링과 최상급 부위로 즐기는 압도적인 육즙과 풍미를 지닌 골든 프리미어 스테이크</p>
+
+                        <div class="steak1_menu">
+                            <div class="steak1_menu1">
+                                
+                                <p>골든 프리미어 토마호크 스테이크</p>
+                                <p><b>GOLDEN PREMIER TOMAHAWK</b></p>
+                                <p>
+                                    <button>
+                                        <img src="sub_images/sub_more_btn1.png" alt="골든 프리미어 토마호크 스테이크 정보 더보기">
+                                        <div class="steakinfo1_bottom">
+                                            <div class="steakinfo1_wrap">
+                                                <p>탄성을 자아내는 두툼함과 압도적인 풍미가 돋보이는<br>
+                                                    토마호크 스테이크
+                                                </p>
+                                                <p>소고기 : 미국산</p>
+                                                <p>100g 당 <b>19,000원</b></p>
+                                                <p>스테이크 당 600~1,000g 정도의 중량입니다.</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                 </p>
+                                
+                            </div>
+
+                            <div class="steak1_menu2">
+                                <p>골든 프리미어 포터하우스 스테이크</p>
+                                <p><b>GOLDEN PREMIER PORTERHOUSE</b></p>
+                                <p>
+                                    <button>
+                                        <img src="sub_images/sub_more_btn2.png" alt="골든 프리미어 포터하우스 스테이크 정보 더보기">
+                                        <div class="steakinfo1_bottom steakinfo1menu2_bottom">
+                                            <div class="steakinfo1_wrap ">
+                                                <p>담백하고 부드러운 안심과 마블링의 리치하고<br>
+                                                    고소한맛의 등심 두가지를 맛볼 수 있는<br>
+                                                    포터하우스 스테이크
+                                                </p>
+                                                <p>소고기 : 미국산</p>
+                                                <p>100g 당 <b>18,000원</b></p>
+                                                <p>스테이크 당 700~850g 정도의 중량입니다.</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steak2">
+                    <div class="steak2_wrap">
+                        <p><strong>VIPS Signature Steak</strong></p>
+                        <p>빕스의 시그니처 얌스톤 위에서 생동감있는 시즐링과
+                            취향에 맞는 굽기로 즐기는 스테이크</p>
+
+                        <div class="steak2_menu">
+                            <div class="steak2_menu1">
+                                <p>얌스톤 스테이크</p>
+                                <p><b>YUMSTONE STEAK</b></p>
+                                <p>
+                                    <button>
+                                        <img src="sub_images/sub_more_btn1.png" alt="얌스톤 스테이크 정보 더보기">
+                                        <div class="steakinfo2_bottom steakinfo2menu1_bottom">
+                                            <div class="steakinfo2_wrap ">
+                                                <p>뜨거운 얌스톤 위에서 직접 구우며<br>
+                                                    마지막 한 점까지 따뜻하게 즐기는 1인 스테이크
+                                                </p>
+                                                <p>소고기 : 호주산</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>안심 150g</p>
+                                                        <p><b>27,500원</b></p>
+                                                    </li>
+                                                    <li>
+                                                        <p>꽃등심 220g</p>
+                                                        <p><b>26,500원</b></p>
+                                                    </li>
+                                                    <li>
+                                                        <p>채끝 210g</p>
+                                                        <p><b>25,500원</b></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </p>
+                            </div>
+
+                            <div class="steak2_menu2">
+                                <p>스모크 우드박스 스테이크</p>
+                                <p><b>SMOKE WOODBOX STEAK</b></p>
+                                <p>
+                                    <button>
+                                        <img src="sub_images/sub_more_btn2.png" alt="스모크 우드박스 스테이크 정보 더보기">
+                                        <div class="steakinfo2_bottom steakinfo2menu2_bottom">
+                                            <div class="steakinfo2_wrap ">
+                                                <p>참나무 스모크 레이어링으로 깊고 진하게<br>
+                                                    완성한 빕스 시그니처 2인 스테이크
+                                                </p>
+                                                <p>소고기 : 호주산</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>안심 260g</p>
+                                                        <p><b>44,500원</b></p>
+                                                    </li>
+                                                    <li>
+                                                        <p>꽃등심 400g</p>
+                                                        <p><b>42,500원</b></p>
+                                                    </li>
+                                                    <li>
+                                                        <p>채끝 350g</p>
+                                                        <p><b>40,500원</b></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <p>스테이크는 샐러드 바 주문 시 이용 가능합니다.<br>
+                            원하는 중량을 선택하실 수 있으며, 자세한 내용은 중량 메뉴북을 확인하세요</p>
+                    </div>
+                </div>
+
+                <div class="bottom_notice">
+                    <p>NOTICE</p>
+                    <p>
+                        - 10% VAT가 포함된 금액입니다.<br>
+                        - 신선한 재료를 사용하기에 메뉴 중 일부 또는 가니쉬는 변경될 수 있습니다.<br>
+                        - 상기 이미지는 실제와 다를 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer"> 
+            <div class="footer_wrap">
+
+                <!--0. top_move{ position: absolute; left:50%; margin: -25px 0 0 -25px;  }-->
+                <p class="top_move"><button><img src="images/footer_top_btn.jpg" alt="웹문서 상단으로 이동"></button></p>
+
+                <!--1-->
+                <div class="footer_top">
+
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">위치기반서비스 이용약관</a></li>
+                        <li><a href="#"><b>개인정보처리방침</b></a></li>
+                        <li><a href="#">이메일 무단수집거부</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">윤리신고센터</a></li>
+                    </ul>
+
+                    <div class="familysite">
+                        <p><button>패밀리 사이트</button></p>
+                        <ul>
+                            <li><a href="https://www.cjfoodville.co.kr/main.asp" target="_blank">CJ푸드빌</a></li>
+                            <li><a href="https://www.tlj.co.kr:7008/index.asp" target="_blank">뚜레쥬르</a></li>
+                            <li><a href="https://www.italiantheplace.co.kr:7022/" target="_blank">더플레이스</a></li>
+                            <li><a href="https://www.cheiljemyunso.co.kr:7014/main.asp" target="_blank">제일제면소</a></li>
+                            <li><a href="https://www.ngrill.co.kr:7025/index.html" target="_blank">N그릴</a></li>
+                            <li><a href="https://www.nseoultower.co.kr:8501/index.asp" target="_blank">N서울타워</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--2-->
+                <div class="footer_middle">
+
+                    <p>CJ푸드빌㈜</p>
+                    <!-- 
+                        div{float:left; display:flex; flex-wrap:wrap; }
+                        div>*:not(:first-child){ border-right:1px solid rgba(255,255,255,0.7); margin-right:10px; padding-right:10px;    }
+                    -->
+                    <div>
+                        <p>대표이사 : 김찬호</p>
+                        <address>주소 : 서울시 중구 마른내로34(초동 106-9번지) KT&G을지로타워 3, 9층</address>
+                        <p>사업자등록번호 : 312-81-42519</p>
+                        <p><b>고객센터 : 1577-0700</b></p>
+                        <p>팩스 : 02-6740-4349</p>
+                        <p><b>대표이메일 : <a href="mailto:help_master@cj.net">help_master@cj.net</a></b></p>
+                        <p>개인정보보호책임자 : 오창호</p>
+                    </div>
+
+                    <!-- sns:float:right;-->
+                    <ul class="sns">
+                        <li><a href="#" target="_blank"><img src="images/footer_icon1.png" alt="인스타그램"></a></li>
+                        <li><a href="https://www.facebook.com/ivips" target="_blank"><img src="images/footer_icon2.png" alt="페이스북"></a></li>
+                        <li><a href="https://www.youtube.com/@VIPS" target="_blank"><img src="images/footer_icon3.png" alt="유투브"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/footer_icon4.png" alt="카카오톡"></a></li>
+                    </ul>
+
+                </div>
+
+                <!--3-->
+                <p>Copyright ⓒ 2023 CJ Foodville ALL RIGHTS RESEVED.</p>
+
+            </div>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="keywords" content="반응형 웹 가상 리뉴얼 프로젝트">
+        <meta name="description" content="산업 현장에서 요구되는 웹언어 구현-가상리뉴얼 프로젝트">
+        <title>빕스</title>
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon16.png">
+
+
+        <!-- 7. 외부 css파일 연동 -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/sub_style.css">
+
+        <!-- <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script> -->
+        <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+        <script src="js/motion.js"></script>
+        <script src="js/subheaderBg.js"></script>
+
+    </head>
+
+    <body>
+        <!-- 전체서브 공통 - header -->
+        <header id="header">
+            <div class="header_wrap">
+                <div class="header_inner">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="빕스"></a></h1>
+
+                    <!-- ★반응형 웹 추가코드 (1280px 이상 해상도에서는 비표시)-->
+                    <p class="nav_view_btn"><button><img src="images/nav_btn.png" alt="전역메뉴 표시"></button></p>
+
+                    <nav>
+                        <p class="nav_close_btn"><button><img src="images/nav_btn2.png" alt="전역메뉴 비표시"></button></p>
+
+                        <ul class="gnb sub2_gnb">
+                            <li>
+                                <a href="sub1_1.html">BRAND</a>
+                                <ul>
+                                    <li><a href="sub1_1.html">브랜드 스토리</a></li>
+                                    <li><a href="sub1_2.html">빕스 히스토리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub2_1.html">MENU</a>
+                                <ul>
+                                    <li><a href="sub2_1.html">스테이크</a></li>
+                                    <li><a href="sub2_2.html">샐러드 바</a></li>
+                                    <li><a href="sub2_3.html">와인</a></li>
+                                    <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub3_1.html">STORE</a>
+                                <ul>
+                                    <li><a href="sub3_1.html">매장찾기</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub4_1.html">EVENT</a>
+                                <ul>
+                                    <li><a href="sub4_1.html">이벤트</a></li>
+                                    <li><a href="sub4_2.html">당첨자 발표</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="sub5_1.html">BENEFIT</a>
+                                <ul>
+                                    <li><a href="sub5_1.html">제휴할인카드</a></li>
+                                    <li><a href="sub5_2.html">CJ ONE</a></li>
+                                    <li><a href="sub5_3.html">빕스매니아</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="top_util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="https://www.cjone.com/cjmweb/join.do?coopco_cd=7020&brnd_cd=2040&mcht_no=&coop_return_url=" target="_blank">회원가입</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div id="sub_container">
+            <!-- 전체서브 공통 - visual -->
+            <h2>MENU</h2> 
+            <div class="sub_visual salad_bg">
+                <div class="sub_visual_wrap salad_visualtext">
+                    <h3>MENU</h3>
+                </div>
+            </div>
+
+            <!-- 전체서브 공통 - lnb -->
+            <div class="salad_lnb"> 
+                <div class="salad_lnb_wrap">
+                    <ul>
+                        <li><a href="sub2_1.html">스테이크</a></li>
+                        <li><a href="sub2_2.html">샐러드 바</a></li>
+                        <li><a href="sub2_3.html">와인</a></li>
+                        <li><a href="sub2_4.html">픽업 & 딜리버리</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub2_2root">Home > MENU > 샐러드 바</div>
+
+            <div class="sub_content salad_content">
+                <div class="saladbar_menu">
+                    <div class="subcontent_title">
+                        <h4>Salad Bar</h4>
+                        <p>샐러드 바</p>
+                    </div>
+
+                    <ul class="salad">
+                        <li class="salad_list1">
+                            <div>
+                                <p><b>스프</b></p>
+                                <p>Soup</p>
+                            </div>
+                            <p>굴라쉬스프, 머쉬룸스프, 된장국</p>
+                        </li>
+
+                        <li class="salad_list2">
+                            <div>
+                                <p><b>샐러드</b></p>
+                                <p>Salad</p>
+                            </div>
+                            <p>
+                                오리엔탈 치킨 샐러드, 시트러스 리코타 샐러드, 슈림프 샐러드,<br> 
+                                프레시 당근 라페 샐러드, 시금치 주꾸미 샐러드, 핫타이 누들 샐러드
+                            </p>
+                        </li>
+
+                        <li class="salad_list3">
+                            <div>
+                                <p><b>파스타</b></p>
+                                <p>Pasta</p>
+                            </div>
+                            <p>미트 로제 파스타, 베이컨 크림 파스타, 바지락 알리오 파스타</p>
+                        </li>
+
+                        <li class="salad_list4">
+                            <div>
+                                <p><b>피자</b></p>
+                                <p>Pizza</p>
+                            </div>
+                            <p>
+                                스윗 하와이안 피자, 트리플허니 고르곤졸라 피자,<br>
+                                프리마베라 가든 피자
+                            </p>
+                        </li>
+
+                        <li class="salad_list5">
+                            <div>
+                                <p><b>매운 음식</b></p>
+                                <p>Hot</p>
+                            </div>
+                            <p>
+                                볼케이노 갈릭 슈림프, 슈바인 학센, 바비큐 폭립, 폴드포크 플래터,<br> 
+                                갈릭 떡볶이, 후라이드 치킨, 메가 크런치, 플랜트 미트 타코 라이스
+                            </p>
+                        </li>
+
+                        <li class="salad_list6">
+                            <div>
+                                <p><b>해산물</b></p>
+                                <p>Seafood & Steam</p>
+                            </div>
+                            <p>
+                                봄 제철 주꾸미 스튜, 바지락 알리오, 슈림프 에그 라이스,<br> 
+                                슈림프 올리브 페스토 누들, 훈제연어, 스팀드 크랩, 홍게, 골뱅이
+                            </p>
+                        </li>
+
+                        <li class="salad_list7">
+                            <div>
+                                <p><b>밥 & 면</b></p>
+                                <p>Rice & Noodle</p>
+                            </div>
+                            <p>스프링 가든 비빔밥, 쌀국수, 우동, 막국수 DIY 코너 </p>
+                        </li>
+
+                        <li class="salad_list8">
+                            <div>
+                                <p><b>디저트</b></p>
+                                <p>Dessert</p>
+                            </div>
+                            <p>
+                                포레누아 케이크, 베이크드 치즈 케이크, 빅토리아 케이크,<br>
+                                판나코타, DIY 와플, 계절과일, 초코분수, 아이스크림
+                            </p>
+                        </li>
+
+                        <li class="salad_list9">
+                            <div>
+                                <p><b>와인 & 페어링</b></p>
+                                <p>Wine & Pairing</p>
+                            </div>
+                            <p>
+                                레드/화이트 와인, 스위트 버진 모히토, 생맥주 피치브루스게타,<br>
+                                햄치즈 카르파치오, 치즈 아스파라거스, 크림치즈 카나페,<br>
+                                크리미 크랩 샐러드, 햄에그 오픈 샌드위치
+                            </p>
+                        </li>
+                    </ul> 
+                </div>
+
+                <div class="saladbar_type">
+                    <div class="subcontent_title">
+                        <h4>Salad Bar Type</h4>
+                        <p>샐러드 바 타입</p>
+                    </div>
+
+                    <p><img src="sub_images/sub2_2_saladbartype.jpg" alt="빕스 샐러드 바 타입"></p>
+
+                    <ul>
+                        <li>
+                            <p><b>VIPS PREMIER</b></p>
+                            <p>
+                                프리미엄 스테이크 다이닝과 시즌별로 맛이 꽉 찬 해산물과 BBQ 로티세리,<br>
+                                불맛을 입혀 구운 가니쉬까지-<br>
+                                원래료부터 조리방식, 서비스까지 모든 다이닝 경험을 차별화한 가장 프리미엄한 빕스
+                            </p>
+                        </li>
+
+                        <li>
+                            <p><b>VIPS TASTE UP PLUS</b></p>
+                            <p>
+                                트렌디함과 전문성이 느껴지는 스테이크와 샐러드 바에 샤퀴테리존까지-<br> 
+                                다채로운 맛과 함께 특별한 다이닝 경험을 선사하는 빕스
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p><button>매장 타입별 가격 확인하기</button></p>
+                </div>
+
+                <div class="bottom_notice">
+                    <p>NOTICE</p>
+                    <p>
+                        - 상기 메뉴는 VIPS TASTE UP PLUS와 PREMIER 기준입니다.<br>
+                        - 상기 이미지는 실제와 다를 수 있습니다.<br>
+                        - 매장별 메뉴는 다를 수 있으며, 최상의 샐러드 바를 위하여 메뉴는 삭제 또는 변경될 수 있습니다.<br>
+                        - 평일 런치와 평일 디너/주말/공휴일에 제공되는 메뉴는 다를 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer"> 
+            <div class="footer_wrap">
+
+                <!--0. top_move{ position: absolute; left:50%; margin: -25px 0 0 -25px;  }-->
+                <p class="top_move"><button><img src="images/footer_top_btn.jpg" alt="웹문서 상단으로 이동"></button></p>
+
+                <!--1-->
+                <div class="footer_top">
+
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">위치기반서비스 이용약관</a></li>
+                        <li><a href="#"><b>개인정보처리방침</b></a></li>
+                        <li><a href="#">이메일 무단수집거부</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">윤리신고센터</a></li>
+                    </ul>
+
+                    <div class="familysite">
+                        <p><button>패밀리 사이트</button></p>
+                        <ul>
+                            <li><a href="https://www.cjfoodville.co.kr/main.asp" target="_blank">CJ푸드빌</a></li>
+                            <li><a href="https://www.tlj.co.kr:7008/index.asp" target="_blank">뚜레쥬르</a></li>
+                            <li><a href="https://www.italiantheplace.co.kr:7022/" target="_blank">더플레이스</a></li>
+                            <li><a href="https://www.cheiljemyunso.co.kr:7014/main.asp" target="_blank">제일제면소</a></li>
+                            <li><a href="https://www.ngrill.co.kr:7025/index.html" target="_blank">N그릴</a></li>
+                            <li><a href="https://www.nseoultower.co.kr:8501/index.asp" target="_blank">N서울타워</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--2-->
+                <div class="footer_middle">
+
+                    <p>CJ푸드빌㈜</p>
+                    <!-- 
+                        div{float:left; display:flex; flex-wrap:wrap; }
+                        div>*:not(:first-child){ border-right:1px solid rgba(255,255,255,0.7); margin-right:10px; padding-right:10px;    }
+                    -->
+                    <div>
+                        <p>대표이사 : 김찬호</p>
+                        <address>주소 : 서울시 중구 마른내로34(초동 106-9번지) KT&G을지로타워 3, 9층</address>
+                        <p>사업자등록번호 : 312-81-42519</p>
+                        <p><b>고객센터 : 1577-0700</b></p>
+                        <p>팩스 : 02-6740-4349</p>
+                        <p><b>대표이메일 : <a href="mailto:help_master@cj.net">help_master@cj.net</a></b></p>
+                        <p>개인정보보호책임자 : 오창호</p>
+                    </div>
+
+                    <!-- sns:float:right;-->
+                    <ul class="sns">
+                        <li><a href="#" target="_blank"><img src="images/footer_icon1.png" alt="인스타그램"></a></li>
+                        <li><a href="https://www.facebook.com/ivips" target="_blank"><img src="images/footer_icon2.png" alt="페이스북"></a></li>
+                        <li><a href="https://www.youtube.com/@VIPS" target="_blank"><img src="images/footer_icon3.png" alt="유투브"></a></li>
+                        <li><a href="#" target="_blank"><img src="images/footer_icon4.png" alt="카카오톡"></a></li>
+                    </ul>
+
+                </div>
+
+                <!--3-->
+                <p>Copyright ⓒ 2023 CJ Foodville ALL RIGHTS RESEVED.</p>
+
+            </div>
+        </footer>
+
+    </body>
+</html>
